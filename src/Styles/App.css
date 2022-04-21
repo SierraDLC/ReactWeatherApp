@@ -1,0 +1,18 @@
+body { 
+  background: rgb(97, 200, 135);
+  box-sizing: border-box;
+  color: antiquewhite;
+  margin:0;
+  padding: 0;
+}
+
+
+.app-container {
+
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(20, 157, 195, 0.654);
+  justify-content:center;
+  height:100vh;
+  align-items:center;
+}

@@ -1,0 +1,100 @@
+.weather-container { 
+    background: rgb(58, 58, 179);
+    height: 680px;
+    width: 80%;
+    box-shadow: 2px 4px 16px 0 rgba(0, 0, 0, 0.886);
+    border-radius: 9px;
+    position:relative;
+    padding:10px
+}
+
+.weather-container h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align:center;
+
+
+}
+
+.weather-header div {
+    display: flex;
+    border-bottom: 2px solid rgb(222, 166, 166);
+    width: 80%;
+    margin:auto;
+}
+
+.weather-header button {
+    border: none;
+    background: transparent;
+    color: rgb(228, 244, 228);
+    cursor: pointer;
+
+}
+ 
+.search-input { 
+    background: transparent;
+    border:none;
+    padding: 4px;
+    outline: none;
+    width: 100%;
+    color:azure;
+    font-size: 20px;
+
+}
+
+.search-input::-webkit-input-placeholder {
+
+    font-size: 1.5rem;
+    color: #eee;
+    opacity:0.5;
+}
+
+.material-icons {
+
+    font-size: 45px;
+}
+
+
+.weather-info {
+     display:flex;
+     flex-direction: column;
+     height: 200px;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.3rem;
+     margin-top:75px ;
+     
+}
+
+.weather-info i {
+
+    color: yellow;
+    position: relative;
+    top:5px;
+    left: 5px;
+    animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate { 
+    to { 
+        transform:rotate(360deg);
+    }
+
+}
+
+.error { 
+
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgb(225, 5, 5);
+    font-size: 20px;
+     
+}
+
+.header-description { 
+    text-align:center;
+
+}
+
