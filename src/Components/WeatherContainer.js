@@ -46,7 +46,7 @@ function getWeatherData() {
     fetch(`https://api.openweathermap.org/geo/1.0/zip?zip=${searchQuery},US&appid=${API_KEY}`) 
     .then(response => response.json())
     .then(data => { setWeatherData({ 
-       city: data
+       city: data["name"]
     })  
         
 //    console.log(data)
